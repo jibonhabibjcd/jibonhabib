@@ -8,9 +8,9 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from movies_scraper import search_movies, get_movie
 
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "2d9179fccdc48b08fe718eb03ea8ef33776f5533"
 URL = "https://jibonhabib.vercel.app"
-bot = Bot(TOKEN)
+bot = "6512837118:AAGBAmS-1_ASbeoa7zR92vijGvvxHN3c9yQ"
 
 
 def welcome(update, context) -> None:
